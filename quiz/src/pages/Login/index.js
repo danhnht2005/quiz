@@ -1,7 +1,27 @@
+import { useDispatch } from "react-redux";
+import { setCookie } from "../../helpers/cookie";
+import { login } from "../../services/usersService";
+import { useNavigate } from "react-router-dom";
+import { checkedLogin } from "../../actions/login";
+
 function Login() {
-  const handleSubmit = (e) => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(e);
+    const email = e.target[0].value;
+    const password = e.target[1].value;
+    const response = await login(email, password);
+    if (response.length > 0) {
+      navigate("/");
+      setCookie("user", response[0].fullName, 7);
+      setCookie("email", response[0].email, 7);
+      setCookie("token", response[0].token, 7);
+      dispatch(checkedLogin(true));
+    } else {
+      alert("Đăng nhập thất bại");
+    }
   }
 
 
