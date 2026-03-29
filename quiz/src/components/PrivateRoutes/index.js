@@ -1,7 +1,8 @@
 import { Navigate, Outlet } from "react-router-dom";
+import { getCookie } from "../../helpers/cookie";
 
 function PrivateRoutes() {
-  const isLogin = false;
+  const isLogin = getCookie("token") ? true : false;
 
   return(
     <>
