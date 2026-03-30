@@ -14,12 +14,12 @@ function Login() {
     const password = e.target[1].value;
     const response = await login(email, password);
     if (response.length > 0) {
-      navigate("/");
       setCookie("user", response[0].fullName, 7);
       setCookie("email", response[0].email, 7);
       setCookie("token", response[0].token, 7);
       setCookie("id", response[0].id, 7);
       dispatch(checkedLogin(true));
+      navigate("/");
     } else {
       alert("Đăng nhập thất bại");
     }
