@@ -7,8 +7,13 @@ import { BrowserRouter } from 'react-router-dom';
 import allReducers from './reducers';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import { getCookie } from './helpers/cookie';
 
-const store = createStore(allReducers);
+const preloadedState = {
+  loginReducer: Boolean(getCookie("token")),
+};
+
+const store = createStore(allReducers, preloadedState);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
