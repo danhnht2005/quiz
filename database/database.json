@@ -64,7 +64,7 @@
   "questions": [
     {
       "id": "1",
-      "topics": 1,
+      "topics": "1",
       "question": "HTML là viết tắt của ...",
       "answers": [
         "Hyperlinks and Text Markup Language",
@@ -75,7 +75,7 @@
     },
     {
       "id": "2",
-      "topics": 1,
+      "topics": "1",
       "question": "Thẻ nào được dùng để xác định phần thân của tài liệu?",
       "answers": [
         "<head>",
@@ -86,7 +86,7 @@
     },
     {
       "id": "3",
-      "topics": 1,
+      "topics": "1",
       "question": "Thẻ nào dùng để tạo một danh sách có thứ tự?",
       "answers": [
         "<ul>",
@@ -97,7 +97,7 @@
     },
     {
       "id": "4",
-      "topics": 1,
+      "topics": "1",
       "question": "Trong HTML5, thẻ nào dùng để nhúng video?",
       "answers": [
         "<media>",
@@ -108,7 +108,7 @@
     },
     {
       "id": "5",
-      "topics": 1,
+      "topics": "1",
       "question": "Thẻ <a> dùng thuộc tính nào để chỉ định địa chỉ liên kết?",
       "answers": [
         "src",
@@ -119,7 +119,7 @@
     },
     {
       "id": "6",
-      "topics": 1,
+      "topics": "1",
       "question": "Thẻ nào dùng để chèn một dòng kẻ ngang?",
       "answers": [
         "<br>",
@@ -130,7 +130,7 @@
     },
     {
       "id": "7",
-      "topics": 1,
+      "topics": "1",
       "question": "Input type nào dùng để chọn ngày tháng trong HTML5?",
       "answers": [
         "type='calendar'",
@@ -141,7 +141,7 @@
     },
     {
       "id": "8",
-      "topics": 1,
+      "topics": "1",
       "question": "Thẻ nào đại diện cho phần tiêu đề của một trang hoặc một section?",
       "answers": [
         "<header>",
@@ -152,7 +152,7 @@
     },
     {
       "id": "9",
-      "topics": 1,
+      "topics": "1",
       "question": "Đâu là thẻ dùng để tạo một ô nhập liệu văn bản nhiều dòng?",
       "answers": [
         "<input type='text'>",
@@ -163,7 +163,7 @@
     },
     {
       "id": "10",
-      "topics": 1,
+      "topics": "1",
       "question": "Khai báo nào là đúng cho HTML5?",
       "answers": [
         "<!DOCTYPE html>",
@@ -174,7 +174,7 @@
     },
     {
       "id": "11",
-      "topics": 2,
+      "topics": "2",
       "question": "CSS là viết tắt của ...",
       "answers": [
         "Creative Style Sheets",
@@ -185,7 +185,7 @@
     },
     {
       "id": "12",
-      "topics": 2,
+      "topics": "2",
       "question": "Thuộc tính nào dùng để thay đổi màu nền?",
       "answers": [
         "color",
@@ -196,7 +196,7 @@
     },
     {
       "id": "13",
-      "topics": 2,
+      "topics": "2",
       "question": "Để căn giữa văn bản, ta dùng thuộc tính nào?",
       "answers": [
         "text-align: center",
@@ -207,7 +207,7 @@
     },
     {
       "id": "14",
-      "topics": 2,
+      "topics": "2",
       "question": "Đâu là cách viết đúng để gọi một class có tên 'test'?",
       "answers": [
         "#test",
@@ -218,7 +218,7 @@
     },
     {
       "id": "15",
-      "topics": 2,
+      "topics": "2",
       "question": "Thuộc tính nào dùng để thay đổi font chữ?",
       "answers": [
         "font-family",
@@ -229,7 +229,7 @@
     },
     {
       "id": "16",
-      "topics": 2,
+      "topics": "2",
       "question": "Trong Box Model, thành phần nào nằm ngoài cùng?",
       "answers": [
         "Padding",
@@ -240,7 +240,7 @@
     },
     {
       "id": "17",
-      "topics": 2,
+      "topics": "2",
       "question": "Để làm chữ in đậm, ta dùng thuộc tính nào?",
       "answers": [
         "font-weight: bold",
@@ -251,7 +251,7 @@
     },
     {
       "id": "18",
-      "topics": 2,
+      "topics": "2",
       "question": "Giá trị nào của position làm phần tử cố định khi cuộn trang?",
       "answers": [
         "relative",
@@ -262,7 +262,7 @@
     },
     {
       "id": "19",
-      "topics": 2,
+      "topics": "2",
       "question": "Làm thế nào để chọn tất cả các thẻ <p> bên trong một <div>?",
       "answers": [
         "div p",
@@ -273,7 +273,7 @@
     },
     {
       "id": "20",
-      "topics": 2,
+      "topics": "2",
       "question": "Thuộc tính nào dùng để tạo khoảng cách bên trong đường viền?",
       "answers": [
         "margin",
@@ -284,7 +284,7 @@
     },
     {
       "id": "21",
-      "topics": 3,
+      "topics": "3",
       "question": "Cách nào để khai báo một biến không thể thay đổi giá trị?",
       "answers": [
         "let",
@@ -295,7 +295,7 @@
     },
     {
       "id": "22",
-      "topics": 3,
+      "topics": "3",
       "question": "Toán tử nào dùng để so sánh bằng cả giá trị và kiểu dữ liệu?",
       "answers": [
         "==",
@@ -306,7 +306,7 @@
     },
     {
       "id": "23",
-      "topics": 3,
+      "topics": "3",
       "question": "Hàm nào dùng để viết thông báo ra hộp thoại pop-up?",
       "answers": [
         "alert()",
@@ -317,7 +317,7 @@
     },
     {
       "id": "24",
-      "topics": 3,
+      "topics": "3",
       "question": "Làm sao để viết một function trong JS?",
       "answers": [
         "function:myFunction()",
@@ -328,7 +328,7 @@
     },
     {
       "id": "25",
-      "topics": 3,
+      "topics": "3",
       "question": "Kết quả của '5' + 2 trong JavaScript là gì?",
       "answers": [
         "7",
@@ -339,7 +339,7 @@
     },
     {
       "id": "26",
-      "topics": 3,
+      "topics": "3",
       "question": "Làm thế nào để viết một chú thích (comment) một dòng?",
       "answers": [
         "<!-- comment -->",
@@ -350,7 +350,7 @@
     },
     {
       "id": "27",
-      "topics": 3,
+      "topics": "3",
       "question": "Phương thức nào dùng để thêm phần tử vào cuối mảng?",
       "answers": [
         "push()",
@@ -361,7 +361,7 @@
     },
     {
       "id": "28",
-      "topics": 3,
+      "topics": "3",
       "question": "Sự kiện nào xảy ra khi người dùng click vào một phần tử HTML?",
       "answers": [
         "onmouseover",
@@ -372,7 +372,7 @@
     },
     {
       "id": "29",
-      "topics": 3,
+      "topics": "3",
       "question": "NaN trong JavaScript có nghĩa là gì?",
       "answers": [
         "Null and None",
@@ -383,7 +383,7 @@
     },
     {
       "id": "30",
-      "topics": 3,
+      "topics": "3",
       "question": "Lệnh nào dùng để thoát khỏi một vòng lặp?",
       "answers": [
         "stop",
@@ -394,7 +394,7 @@
     },
     {
       "id": "31",
-      "topics": 4,
+      "topics": "4",
       "question": "ReactJS là một ...",
       "answers": [
         "Library của JavaScript",
@@ -405,7 +405,7 @@
     },
     {
       "id": "32",
-      "topics": 4,
+      "topics": "4",
       "question": "Hook nào dùng để quản lý state trong Functional Component?",
       "answers": [
         "useEffect",
@@ -416,7 +416,7 @@
     },
     {
       "id": "33",
-      "topics": 4,
+      "topics": "4",
       "question": "JSX là viết tắt của ...",
       "answers": [
         "JavaScript XML",
@@ -427,7 +427,7 @@
     },
     {
       "id": "34",
-      "topics": 4,
+      "topics": "4",
       "question": "Làm thế nào để truyền dữ liệu từ Component cha xuống Component con?",
       "answers": [
         "Sử dụng state",
@@ -438,7 +438,7 @@
     },
     {
       "id": "35",
-      "topics": 4,
+      "topics": "4",
       "question": "Hàm nào chạy sau khi component được render lần đầu (với useEffect rỗng)?",
       "answers": [
         "ComponentWillUpdate",
@@ -449,7 +449,7 @@
     },
     {
       "id": "36",
-      "topics": 4,
+      "topics": "4",
       "question": "Trong React, 'key' được dùng trong danh sách để làm gì?",
       "answers": [
         "Để định dạng CSS",
@@ -460,7 +460,7 @@
     },
     {
       "id": "37",
-      "topics": 4,
+      "topics": "4",
       "question": "Virtual DOM trong React giúp cải thiện điều gì?",
       "answers": [
         "Bảo mật",
@@ -471,7 +471,7 @@
     },
     {
       "id": "38",
-      "topics": 4,
+      "topics": "4",
       "question": "Đâu là cách đúng để render một component <Header />?",
       "answers": [
         "ReactDOM.render(<Header />, document.getElementById('root'))",
@@ -482,7 +482,7 @@
     },
     {
       "id": "39",
-      "topics": 4,
+      "topics": "4",
       "question": "Children prop là gì?",
       "answers": [
         "Một mảng các state",
@@ -493,7 +493,7 @@
     },
     {
       "id": "40",
-      "topics": 4,
+      "topics": "4",
       "question": "Lệnh nào dùng để tạo một project React mới?",
       "answers": [
         "npm start react",
@@ -506,7 +506,7 @@
   "answers": [
     {
       "userId": 1,
-      "topicId": 1,
+      "topicId": "1",
       "ansewers": [
         {
           "questionId": 4,
@@ -525,7 +525,7 @@
     },
     {
       "userId": 2,
-      "topicId": 2,
+      "topicId": "2",
       "ansewers": [
         {
           "questionId": 11,
@@ -544,7 +544,7 @@
     },
     {
       "userId": 3,
-      "topicId": 3,
+      "topicId": "3",
       "ansewers": [
         {
           "questionId": 21,
@@ -563,7 +563,7 @@
     },
     {
       "userId": 4,
-      "topicId": 4,
+      "topicId": "4",
       "ansewers": [
         {
           "questionId": 31,
@@ -582,7 +582,7 @@
     },
     {
       "userId": 5,
-      "topicId": 1,
+      "topicId": "1",
       "ansewers": [
         {
           "questionId": 1,
