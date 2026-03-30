@@ -18,6 +18,7 @@ function Login() {
       setCookie("user", response[0].fullName, 7);
       setCookie("email", response[0].email, 7);
       setCookie("token", response[0].token, 7);
+      setCookie("id", response[0].id, 7);
       dispatch(checkedLogin(true));
     } else {
       alert("Đăng nhập thất bại");
