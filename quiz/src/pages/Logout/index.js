@@ -6,14 +6,16 @@ import { checkedLogin } from "../../actions/login";
 
 function Logout(){
   const navigate = useNavigate();
-  const dipatch = useDispatch();
+  const dispatch = useDispatch();
 
   useEffect(() => {
+    dispatch(checkedLogin(false));
     deleteCookie("user");
+    deleteCookie("email");
     deleteCookie("token");
+    deleteCookie("id");
     navigate("/login");
-    dipatch(checkedLogin(false));
-  }, []);
+  }, [dispatch, navigate]);
 
   return (
     <>
