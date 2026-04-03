@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { getTopic } from '../../services/topicsService';
 import { getListQuestions } from '../../services/questionsService';
 import { getCookie } from '../../helpers/cookie';
+import { postAnswers } from '../../services/answersService';
 
 function Quiz() {
   const params = useParams();
   const [dataTopic, setDataTopic] = useState({});
   const [dataQuestions, setDataQuestions] = useState([]);
+  const navigate = useNavigate()
 
   useEffect(() => {
     const fetchAPI = async () => {
@@ -25,7 +27,7 @@ function Quiz() {
     fetchAPI();
   }, [params.id]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     let seletedAnswer = [];
@@ -47,7 +49,11 @@ function Quiz() {
       ansewers: seletedAnswer
     }
 
-      console.log(option);
+    console.log(option);
+
+    const result = await postAnswers("answers", option);
+
+    console.log(result)
   }
 
 
