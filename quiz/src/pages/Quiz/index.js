@@ -49,11 +49,10 @@ function Quiz() {
       ansewers: seletedAnswer
     }
 
-    console.log(option);
-
-    const result = await postAnswers("answers", option);
-
-    console.log(result)
+    const result = await postAnswers(option);
+    if(result) {
+      navigate(`/result/${result.id}`)
+    }
   }
 
 

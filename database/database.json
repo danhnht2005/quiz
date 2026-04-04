@@ -45,19 +45,19 @@
   ],
   "topics": [
     {
-      "id": "1",
+      "id": 1,
       "name": "HTML5"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "CSS3"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Javascript"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "ReactJS"
     }
   ],
@@ -506,7 +506,7 @@
   "answers": [
     {
       "userId": 1,
-      "topicId": "1",
+      "topicId": 1,
       "ansewers": [
         {
           "questionId": 4,
@@ -544,7 +544,7 @@
     },
     {
       "userId": 3,
-      "topicId": "3",
+      "topicId": 3,
       "ansewers": [
         {
           "questionId": 21,
@@ -563,7 +563,7 @@
     },
     {
       "userId": 4,
-      "topicId": "4",
+      "topicId": 4,
       "ansewers": [
         {
           "questionId": 31,
@@ -582,7 +582,7 @@
     },
     {
       "userId": 5,
-      "topicId": "1",
+      "topicId": 1,
       "ansewers": [
         {
           "questionId": 1,
@@ -600,7 +600,98 @@
       "id": "6"
     },
     {
-      "id": "-2E8AJXrkV0"
+      "userId": 1,
+      "topicId": 1,
+      "ansewers": [
+        {
+          "questionId": 1,
+          "ansewer": 0
+        },
+        {
+          "questionId": 2,
+          "ansewer": 1
+        },
+        {
+          "questionId": 3,
+          "ansewer": 2
+        },
+        {
+          "questionId": 4,
+          "ansewer": 1
+        },
+        {
+          "questionId": 5,
+          "ansewer": 0
+        },
+        {
+          "questionId": 6,
+          "ansewer": 2
+        },
+        {
+          "questionId": 7,
+          "ansewer": 2
+        },
+        {
+          "questionId": 8,
+          "ansewer": 2
+        },
+        {
+          "questionId": 9,
+          "ansewer": 0
+        },
+        {
+          "questionId": 10,
+          "ansewer": 0
+        }
+      ],
+      "id": "UP7Z_VEobPA"
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "ansewers": [
+        {
+          "questionId": 1,
+          "ansewer": 0
+        },
+        {
+          "questionId": 2,
+          "ansewer": 1
+        },
+        {
+          "questionId": 3,
+          "ansewer": 2
+        },
+        {
+          "questionId": 4,
+          "ansewer": 2
+        },
+        {
+          "questionId": 5,
+          "ansewer": 2
+        },
+        {
+          "questionId": 6,
+          "ansewer": 2
+        },
+        {
+          "questionId": 7,
+          "ansewer": 0
+        },
+        {
+          "questionId": 8,
+          "ansewer": 0
+        },
+        {
+          "questionId": 9,
+          "ansewer": 0
+        },
+        {
+          "questionId": 10,
+          "ansewer": 0
+        }
+      ],
+      "id": "HYNgSqIy51E"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
