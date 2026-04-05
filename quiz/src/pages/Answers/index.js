@@ -15,7 +15,7 @@ function Answers() {
 
       for(let i = 0; i < answersList.length; i++) {
         result.push({
-          name: topics.find(item => item.id === answersList[i].topicId)?.name,
+          name: topics.find(item => item.id == answersList[i].topicId)?.name,
           ...answersList[i],
         });
       }
@@ -39,9 +39,9 @@ function Answers() {
             </tr>
           </thead>
           <tbody>
-            {answers.map(item => (
+            {answers.map((item, index) => (
               <tr key={item.id}>
-                <td>{item.id}</td>
+                <td>{index + 1}</td>
                 <td>{item.name}</td>
                 <td>
                   <Link to={`/result/${item.id}`}>Xem chi tiết</Link>

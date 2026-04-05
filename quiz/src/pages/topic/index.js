@@ -13,8 +13,6 @@ function Topic() {
     fetchAPI();
   }, []);
 
-  console.log(topics);
-
   return (
     <>
       <h2>Danh sách chủ để</h2>
