@@ -29,19 +29,19 @@ function Register() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="d-flex flex-column gap-3 login-form">
         <h2>Register Quiz</h2>
         <div>
-          <input type="text" placeholder="Nhập họ tên" />
+          <input type="text" placeholder="Nhập họ tên" className="form-control" />
         </div>
         <div>
-          <input type="email" placeholder="Nhập email" />
+          <input type="email" placeholder="Nhập email" className="form-control" />
         </div>
         <div>
-          <input type="password" placeholder="Nhập mật khẩu" />
+          <input type="password" placeholder="Nhập mật khẩu" className="form-control" />
         </div>
         <div>
-          <button type="submit">Đăng ký</button>
+          <button type="submit" className="btn button--quiz">Đăng ký</button>
         </div>
       </form>
     </>

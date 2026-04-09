@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  text-decoration: none !important;
+}
+
+.button--quiz {
+  background-color: orange !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
