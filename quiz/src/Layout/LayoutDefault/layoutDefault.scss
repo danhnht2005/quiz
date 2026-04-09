@@ -5,6 +5,15 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+
+    .layout-default__logo {
+      font-size: 30px;
+      font-weight: bold;
+
+      a {
+        color: #fff;
+      }
+    }
   }
 
   &__menu {
@@ -15,20 +24,36 @@
       display: flex;
 
       li {
-        margin-left: 20px;
+        margin: 0 20px;
 
+        a {
+          color: #fff;
+          font-weight: 600;
+          font-size: 18px;
+        }
       }
+    }
+  }
+
+  &__account {
+    a {
+      margin-left: 30px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 18px;
     }
   }
 
   &__main {
     padding: 20px;
+    margin-bottom: 50px;
   }
 
   &__footer {
-    background: orange;
+    background: #f55c15;
     text-align: center;
     padding: 10px 20px;
+    color: #fff;
   }
 }
 
@@ -38,7 +63,9 @@
     text-decoration: none;
 
     &--active {
-      color: #fff;
+      background-color: #f55c15;
+      padding: 3px 10px;
+      border-radius: 5px;
     }
   }
 }

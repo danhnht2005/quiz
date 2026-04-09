@@ -15,6 +15,7 @@ function Answers() {
 
       for(let i = 0; i < answersList.length; i++) {
         result.push({
+          // eslint-disable-next-line eqeqeq
           name: topics.find(item => item.id == answersList[i].topicId)?.name,
           ...answersList[i],
         });
@@ -24,18 +25,16 @@ function Answers() {
     fetchAPI();
   }, []);
 
-  console.log(answers);
-
   return (
     <>
       <h2>Danh Sách bài đã luyện tập</h2>
       {answers.length > 0 && (
-        <table>
+        <table className="table">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Tên chủ để</th>
-              <th></th>
+              <th scope="col">ID</th>
+              <th scope="col">Tên chủ để</th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>

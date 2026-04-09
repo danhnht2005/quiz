@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getListTopics } from "../../services/topicsService";
+import "./topic.scss"
 
 function Topic() {
   const [topics, setTopics] = useState([]);
@@ -17,12 +18,12 @@ function Topic() {
     <>
       <h2>Danh sách chủ để</h2>
       {topics.length > 0 && (
-        <table>
+        <table className="table">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Tên chủ để</th>
-              <th></th>
+              <th scope="col">ID</th>
+              <th scope="col">Tên chủ để</th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>

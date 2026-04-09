@@ -3,6 +3,8 @@ import { setCookie } from "../../helpers/cookie";
 import { login } from "../../services/usersService";
 import { useNavigate } from "react-router-dom";
 import { checkedLogin } from "../../actions/login";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Login.scss"
 
 function Login() {
   const navigate = useNavigate();
@@ -28,16 +30,16 @@ function Login() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="d-flex flex-column gap-3 login-form">
         <h2>Login Quiz</h2>
         <div>
-          <input type="email" placeholder="Nhập email" />
+          <input className="form-control" type="email" placeholder="Nhập email" />
         </div>
         <div>
-          <input type="password" placeholder="Nhập mật khẩu" />
+          <input className="form-control" type="password" placeholder="Nhập mật khẩu" />
         </div>
         <div>
-          <button type="submit">Đăng nhập</button>
+          <button type="submit" className="btn button--quiz">Login</button>
         </div>
       </form>
     </>

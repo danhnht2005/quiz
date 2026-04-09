@@ -1,0 +1,30 @@
+.result {
+  &__tag {
+    margin-left: 30px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #fff;
+
+    &--true {
+      background-color: green;
+    }
+
+    &--false {
+      background-color: red;
+    }
+  }
+
+  &__list {
+    a {
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: orange;
+      font-weight: 600;
+    }
+  }
+
+  &__item {
+    margin-bottom: 20px;
+  } 
+}

@@ -4,6 +4,7 @@ import { getTopic } from '../../services/topicsService';
 import { getListQuestions } from '../../services/questionsService';
 import { getCookie } from '../../helpers/cookie';
 import { postAnswers } from '../../services/answersService';
+import './quiz.scss';
 
 function Quiz() {
   const params = useParams();
@@ -76,7 +77,7 @@ function Quiz() {
 
             </div>
           ))}
-          <button type="submit">Nộp bài</button>
+          <button className='btn button--quiz' type="submit">Nộp bài</button>
         </form>
       </div>
     </>
