@@ -1,4 +1,4 @@
-const API_DOMAIN = "https://quiz-database-tau.vercel.app/";
+const API_DOMAIN = "https://database-quiz-oud9.vercel.app/";
 
 export const get = async (path) => {
   const response = await fetch(API_DOMAIN + path);
